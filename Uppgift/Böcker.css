@@ -1,0 +1,262 @@
+.header {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    height: 60px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+nav {
+    text-align: center;
+}
+
+
+
+
+
+
+.container {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 100px;
+    background-color: #FFFAF0;
+    height: 100px;
+    
+}
+
+button  {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #FFFAF0;
+  color: #000;
+  border: 2px solid #000;
+  box-shadow: 0 0 10px #000;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.main {
+    display: flex; /* Use flexbox to align cards horizontally */
+    justify-content: center; /* Center-align the cards horizontally */
+    width: 100%; /* Set the width to 100% */
+  }
+  
+  .main1 {
+    display: flex; /* Use flexbox to arrange cards vertically */
+    flex-direction: row; /* Arrange cards vertically */
+  }
+  
+  .card1, .card2, .card3, .card4 {
+    background-color: #f1f1f1; /* Background color of cards */
+    padding: 20px; /* Padding around content inside cards */
+    margin: 10px; /* Margin between cards */
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    height: 300px; /* Set the height of cards */
+    width: 300px; /* Set the width of cards */
+  }
+  
+  .card1 h1 {
+    font-size: 24px; /* Font size of the heading inside card1 */
+    color: #333; /* Text color */
+    margin-bottom: 10px; /* Add some space below the heading */
+    text-align: center;
+    padding-right: 10px;
+  }
+  
+  /* Additional styling for specific cards */
+  .card2 {
+    background-color: #e0e0e0; /* Different background color */
+  }
+  
+  .card3 {
+    background-color: #d0d0d0; /* Different background color */
+  }
+  
+  .card4 {
+    background-color: #c0c0c0; /* Different background color */
+  }
+  .card1 p{
+    text-align: center;
+    padding-right: 10px;
+
+  }
+  .card1 h2{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .card2 h1{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .card3 h1{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .card2 h1{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .card2 p{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .card1 h3{
+    text-align: center;
+    padding-right: 10px;
+  }
+  
+  .card3 h1{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .card3 p{
+    text-align: center;
+    padding-right: 10px;
+  }
+.card3 h2{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .card3 h3{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .card4 {
+    align-items: center;
+    text-align: center;
+    padding-right: 10px;
+  }
+  .card4 h1{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .card4 p{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;} 
+
+  .book-details {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    margin-right: 50px;
+
+    margin-left: calc(10% - 100px); 
+    margin-right: calc(10% - 100px); 
+}
+
+
+
+.book-info {
+    display: flex;
+    align-items: center;
+}
+
+.book-info img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.details {
+    flex: 1;
+}
+
+.book-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.book-details h2, .book-details p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.read-more-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.read-more-btn:hover {
+    background-color: #0056b3;
+}
